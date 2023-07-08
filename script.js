@@ -309,11 +309,4 @@ for (var j = 0; j < links.length; j++)
  }
 }
 
-let previousWidth = window.innerWidth;
 
-window.addEventListener('resize', function() {
-  const currentWidth = window.innerWidth;
-  if (currentWidth !== previousWidth) {
-    location.reload();
-  }
-});
