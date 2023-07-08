@@ -1,0 +1,1234 @@
+
+
+@import url('https://fonts.googleapis.com/css?family=Moon Dance');
+@import url('https://fonts.googleapis.com/css?family=Source Code Pro');
+@import url('https://fonts.googleapis.com/css2?family=Belanosima&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    font-family: Belanosima;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    color:#14cf93
+}
+html,body{
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+}
+
+#flex{
+    position: relative;
+}
+
+#white{
+    width: 100%;
+    height: 100vh;
+    background-color: wheat;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 19;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+ 
+}
+#white h1{
+    position: absolute;
+    font-size: 6vw;
+}
+#rj{
+    color:#14cf93;
+}
+#green{
+    width:100%;
+    height:100vh;
+    background-color: rgb(138, 228, 138);
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 18;
+}
+
+#main{
+    width: 100%;
+    background-color: white;
+}
+
+#crd{
+    width: 100%;
+    min-height: 100vh;
+    background-color: black;
+    color: white;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    
+    -webkit-box-orient: vertical;
+    
+    -webkit-box-direction: normal;
+    
+        -ms-flex-direction: column;
+    
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    position: relative;
+
+}
+
+#crd h1{
+    font-size: 11vw;
+}
+#lftxt{
+    position: absolute;
+    left: 15vw;
+    top: 23vh;
+    opacity: 1;
+}
+#rgtxt{
+    position: absolute;
+    right: 15vw;
+    bottom: 27vh;
+    opacity: 1;
+
+}
+
+#nv{
+    
+    width: 100vw;
+    height: 10vh;
+    background-color: black;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    position: fixed;
+    top:0;
+    z-index: 16;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+}
+#contact{
+    width: 4vw;
+    height: 30vh;
+    position: fixed;
+    top: 50%;
+    -webkit-transform: translate(0,-50%);
+        -ms-transform: translate(0,-50%);
+            transform: translate(0,-50%);
+    color: white;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-pack:distribute;
+        justify-content:space-around;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    font-size: 3vw;
+}
+#logo{
+    width: 20vw;
+    height: 100%;
+    color: white;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    
+    
+}
+#logo>h1{
+    padding: 0px 0px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    font-size: 2vw;
+    white-space: nowrap;
+}
+
+#icon{
+    width: 60%;
+    height: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+
+}
+#icon lord-icon{
+    
+    width: 100%;
+    height: 100%;
+}
+
+#menu{
+    width: 40%;
+    height: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    font-size: 2vw;
+    position: relative;
+    right: 0;
+
+}
+#menu a{
+    text-decoration: none;
+    color: white;
+}
+#menu a:hover{
+    color:#14cf93;
+}
+
+
+
+
+#first{
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+#sec{
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    overflow: hidden;
+}
+#third{
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    overflow: hidden;
+    position: relative;
+}
+#fourth{
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    overflow: hidden;
+    position: relative;
+
+}
+
+::-webkit-scrollbar{
+    display: none;
+}
+#slft{
+    width: 50%;
+    height: 100%;
+    position: relative;
+}
+#srgt{
+    width: 50%;
+    height: 100%;
+    position: relative;
+    
+}
+
+#stxt{
+    width: 40vw;
+    min-height: -webkit-fit-content;
+    min-height: -moz-fit-content;
+    min-height: fit-content;
+    position: absolute;
+    top: 50vh;
+    left: 50%;
+    -webkit-transform: translate(-40%,-50%);
+        -ms-transform: translate(-40%,-50%);
+            transform: translate(-40%,-50%);
+    color: white;
+    -webkit-transition: all .2s linear;
+    -o-transition: all .2s linear;
+    transition: all .2s linear;
+}
+#stxt h1{
+    font-size: 2.4vw;
+    padding-bottom: 10px;
+    color:#14cf93;
+    white-space: nowrap;
+}
+
+
+#stxt h3{
+    font-size: 1.7vw;
+    text-align: justify;
+    line-height: 1.3;    
+}
+.simg{
+   
+    height: 70vh;
+    background: white;
+    border-radius: 10px;
+    position: absolute;
+    bottom:10vh;
+    left: 5vw;
+    -webkit-transition: all .2s linear;
+    -o-transition: all .2s linear;
+    transition: all .2s linear;
+    overflow: hidden;
+    border: 2px solid white;
+
+
+}
+
+.simg:hover{
+    z-index: 2;
+}
+#img1{
+    background-color: black;
+    border: 2px solid;
+
+}
+
+#img2{
+    background-color: black;
+    
+}
+
+#idx{
+    width: 9vw;
+    height: 9vw;
+    position: fixed;
+    top: 85vh;
+    left: 2vw;
+    -webkit-transform: translate(0,-50%);
+        -ms-transform: translate(0,-50%);
+            transform: translate(0,-50%);
+    color: white;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    overflow:hidden;
+    font-size: 7.5vw;
+    border-bottom: 5px solid white;
+    z-index: 16;
+}
+.num{
+    width: 100%;
+    height: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    color: white;
+    
+}
+.pages{
+    font-size: 1vw;
+    position: relative;
+    top: -15px;
+}
+#nums{
+    position: absolute;
+    top: 0%;
+}
+#flft{
+    width: 50%;
+    height: 100%;
+
+}
+#frgt{
+    width: 50%;
+    height: 100%;
+
+}
+#rl{
+    position: relative;
+        width: 100%;
+        height: 100%;
+}
+#box{
+    border-radius: 50% 50% 48% 52% / 65% 65% 35% 35% ;
+    width: 32vw;
+    height: 32vw;
+    position: absolute;
+    top:49vh ;
+    right: 6vw;
+    -webkit-transform: translate(0%,-50%);
+        -ms-transform: translate(0%,-50%);
+            transform: translate(0%,-50%);
+    overflow: hidden;
+
+}
+#box img{
+    width: 100%;
+    height: 100%;
+
+    
+}
+#txt{
+    text-align: left;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    font-size:2.5vw;
+    letter-spacing: .5vw;
+    position: absolute;
+    -webkit-transform: translate(0%,-50%);
+        -ms-transform: translate(0%,-50%);
+            transform: translate(0%,-50%);
+    top:45%;
+    color: white;
+}
+
+#txt h1,h2,h4{
+    font-family:Belanosima;
+}
+
+#arrow{
+    position: fixed;
+    right: 0px;
+    font-size: 2vw;
+    -webkit-transform: translate(0%,-50%);
+        -ms-transform: translate(0%,-50%);
+            transform: translate(0%,-50%);
+    top: 75%;
+    width: 3vw;
+    color: white;
+    height: 10vw;
+    -webkit-animation-name: scrl;
+            animation-name: scrl;
+    -webkit-animation-duration: 1s;
+            animation-duration: 1s;
+    -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+    -webkit-animation-timing-function: cubic-bezier(0.19, 1, 0.22, 1)1s;
+            animation-timing-function: cubic-bezier(0.19, 1, 0.22, 1)1s;
+    z-index: 16;
+    
+}
+#arrow h3{
+    rotate: 90deg;
+    white-space: nowrap;
+}
+#cv{
+    text-decoration: none;
+    font-size: 2.5vw;
+    position: absolute;
+    top: 66vh;
+    color:#14cf93 ;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding: 0px 0px;
+    border-radius: 10px;
+    border: 2px solid #14cf93;
+    padding-right: 20px;
+    left:0;
+
+}
+#cursor{
+    color: yellow;
+    font-size: 4vw;
+    -webkit-animation: cur;
+            animation: cur;
+    opacity: 1;
+    -webkit-animation-name: cur;
+            animation-name: cur;
+    -webkit-animation-duration:.3s;
+            animation-duration:.3s;
+    -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+}
+@-webkit-keyframes scrl{
+
+    0%{ top:75%;}
+    100%{top: 80%;}
+
+}
+@keyframes scrl{
+
+    0%{ top:75%;}
+    100%{top: 80%;}
+
+}
+@-webkit-keyframes cur {
+    0%{opacity: 1;}
+    100%{opacity: 0;}
+}
+@keyframes cur {
+    0%{opacity: 1;}
+    100%{opacity: 0;}
+}
+
+#tlft{
+    width: 45vw;
+    height: 100vh;
+    position: relative;
+}
+#timg1{
+    width:15vw ;
+    height: 30vh;
+    background: white;
+    border-radius: 10px;
+    position: absolute;
+    object-fit: cover;
+    bottom:35vh;
+    left:29vw;
+    overflow: hidden;
+    -webkit-transition: all .3s linear;
+    -o-transition: all .3s linear;
+    transition: all .3s linear;
+    border: 2px solid white;
+}
+
+
+#timg2{
+    width:15vw ;
+    height: 30vh;
+    background: white;
+    border-radius: 10px;
+    position: absolute;
+    overflow: hidden;
+    bottom:12vh;
+    left:12vw;
+    border: 2px solid white;
+    -webkit-transition: all .3s linear;
+    -o-transition: all .3s linear;
+    transition: all .3s linear;
+}
+#timg3{
+    width:15vw ;
+    height: 30vh;
+    background: white;
+    border-radius: 10px;
+    position: absolute;
+    overflow: hidden;
+    bottom:50vh;
+    left:12vw;
+    border: 2px solid white;
+    -webkit-transition: all .3s linear;
+    -o-transition: all .3s linear;
+    transition: all .3s linear;
+}
+.tani{
+    -webkit-animation-name: tani;
+            animation-name: tani;
+    -webkit-animation-duration: 1s;
+            animation-duration: 1s;
+    -webkit-transition: position .5 linear;
+    -o-transition: position .5 linear;
+    transition: position .5 linear;
+    -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+    
+}
+
+@-webkit-keyframes tani {
+    0%{ scale:.98 }
+    100%{scale:1}
+}
+
+@keyframes tani {
+    0%{ scale:.98 }
+    100%{scale:1}
+}
+#trgt{
+    width: 55vw;
+    height: 100vh;
+    position: relative;
+}
+#trupr{
+    width: 100%;
+    height: 40vh;
+    position: absolute;
+    top:10vh;
+    display:-webkit-box;
+    display:-ms-flexbox;
+    display:flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+#skill{
+    width:80%;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    margin-bottom: 2px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: left;
+        -ms-flex-pack: left;
+            justify-content: left;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    color: white;
+    font-size: 2vw;
+    -webkit-transition: all .1s linear;
+    -o-transition: all .1s linear;
+    transition: all .1s linear;
+    
+}
+#nam{
+    width: 30%;
+}
+#nine{
+    width: 60%;
+    height: 5px;
+    background-color: rgb(165, 71, 219);
+    border-radius: 3px;
+}
+#eight{
+    width: 50%;
+    height: 5px;
+    background-color: rgb(165, 71, 219);
+    border-radius: 3px;
+}
+#seven{
+    width: 40%;
+    height: 5px;
+    background-color: rgb(165, 71, 219);
+    border-radius: 3px;
+}
+#trlwr{
+    width: 100%;
+    height: 50vh;
+    bottom: 0;
+    position: absolute;
+   
+}
+#crusall{
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    overflow: hidden;
+    border-radius: 5px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+}
+
+.mySlides {
+    
+    display: none;
+}
+.mySlides a {
+    
+    cursor: -webkit-grab;
+    
+    cursor: grab;
+}
+#cru {vertical-align: middle;
+     height: 100%;
+}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 60%;
+  margin: auto;
+  position: relative;
+  background-color: rgb(82, 76, 76);
+  border-radius: 10px;
+  overflow: hidden;
+  color: white;
+  font-size: 2vw;
+
+  
+}
+.slideshow-container h5{
+     text-align: center;
+
+}
+
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  width: auto;
+  padding: 16px;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.151);
+  font-weight: bold;
+  font-size: 18px;
+  -webkit-transition: 0.6s ease;
+  -o-transition: 0.6s ease;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+
+
+/* Number text (1/3 etc) */
+
+
+
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+          animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+          animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+
+
+#forlft{
+    width: 40%;
+    height: 100vh;
+    position: relative;
+
+}
+#forrgt{
+    width: 60%;
+    height: 100vh;
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    gap: 3vh;
+    -webkit-transition: all .2s linear;
+    -o-transition: all .2s linear;
+    transition: all .2s linear;
+
+}
+
+#ctxt{
+    width: 60%;
+    height: 50%;
+    right: 0;
+    position: absolute;
+    top: 24vh;
+    color: white;
+    -webkit-box-align: left;
+        -ms-flex-align: left;
+            align-items: left;
+    -webkit-transition: all .2s linear;
+    -o-transition: all .2s linear;
+    transition: all .2s linear;
+
+}
+#cupr {
+    text-align: center;
+    font-size: 1.5vw;
+    padding-bottom: 10px;
+    margin-bottom: 5vh;
+    border-bottom: 3px solid white;
+}
+.clwr a{
+    font-size: 1.9vw;
+    padding: 10px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    gap:1vw;
+    color: white;
+}
+.clwr a lord-icon{
+    width: 3vw;
+    height: 3vw;
+}
+#mail{
+    width: 60%;
+    height: 3vw;
+    place-content: "email";
+    border-radius: 20px;
+    padding: 10px;
+    font-size: 1.5vw;
+}
+#name{
+    width: 60%;
+    height: 3vw;
+    place-content: "email";
+    border-radius: 20px;
+    padding: 10px;
+    font-size: 1.5vw;
+}
+#text{
+    width: 60%;
+    height: 9vw;
+    place-content: "email";
+    border-radius: 20px;
+    padding: 10px;
+    font-size: 1.5vw;
+}
+#fb{
+    width: 10vw;
+    height: 3vw;
+    place-content: "email";
+    border-radius: 20px;
+    padding:15px 10px;
+    text-align: center;
+    font-size: 1.5vw;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    background-color: #14cf93;
+}
+
+#lst{
+    color: white;
+    position: absolute;
+
+    bottom: 3vh;
+    left: -4vw;
+    font-size: 2vw;
+}
+
+
+#img1 img{
+    height: 120%;
+}
+#img2 img{
+    height: 100%;
+    position: absolute;
+    top: -5vh;
+    left:3vw;
+}
+#img3 img{
+    height: 100%;
+    position: absolute;
+    left: -4.5vw;
+}
+#timg1 img{
+    width: 100%;
+    position: absolute;
+    left: -1px;
+    top: -4px;
+    scale: 1.03;
+
+}
+#timg2 img{
+    width: 100%;
+}
+#timg3 img{
+    width: 100%;
+}
+#btnn{
+    position: absolute;
+    white-space: nowrap;
+}
+
+@media(max-width:800px){
+    .prev, .next,.text {font-size: 11px}
+    body{
+        background-color: black;
+    }
+    #img1{
+        width: 100vw;
+        background-color: transparent;
+    }
+
+ 
+    #cv{
+       
+        padding: 10px 10px
+    }
+  
+    #logo {
+        
+        width: 40vw;
+    }
+
+    #logo h1{
+        font-size: 6vw;
+    }
+    #menu{
+        width: 50vw;
+        font-size: 5vw;
+    }
+    #first{
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+    }
+    #frgt{
+        width: 100vw;
+        height: 100vh;
+    }
+    #flft{
+        width: 100vw;
+        height: 100vh;
+    }
+    #box{
+        top: 40vh;
+        right: 17vh;
+        scale: 2;
+    }
+    #rl{
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+    
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        position: relative;
+        align-items: center;
+        justify-content: center;
+    }
+    #txt{
+        text-align:center;
+        font-size: 6vw;
+        top:10vh
+        
+    }
+    #btnn {
+        top: -40vh;
+        left: 22vw;
+    
+    }
+    #btnn a{
+        font-size: 8vw;
+    }
+    #btnn a lord-icon{
+        scale: 2;
+        margin-right: 10px; 
+        margin-left: 5px;
+    }
+
+    #idx{
+        width: 15vw;
+        height: 8vh;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        
+        top: 95vh;
+        
+        
+    }
+    #nums{
+        font-size: 10vw;
+    
+    }
+    #logo #icon{
+        display: none;
+    }
+    .pages{
+        display: none;
+    }
+
+    #sec{
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        
+    }
+    #slft{
+        width: 100vw;
+        
+
+    }
+    #srgt{
+        width: 100vw;
+        
+
+    }
+    #stxt{
+        top:40vh;
+        width: 70%;
+        height: 70%;
+        left: 43%;
+
+    }
+    #stxt h1{
+      font-size:5vw;
+    }
+    #stxt h3{
+    
+            font-size: 4.3vw;
+        
+    }
+    .simg{
+        width: 60%;
+        height: 70%;
+        bottom: 6vh;
+    }
+
+    #third{
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: reverse;
+            -ms-flex-direction: column-reverse;
+                flex-direction: column-reverse;
+
+    }
+    #tlft{
+        width: 100vw;
+        
+    }
+    #trgt{
+        width: 100vw;
+
+    }
+    #skill{
+        gap:5vw;
+    }
+    #trupr{
+        width: 100%;
+        top: 5vh;
+    }
+    #nam{
+        font-size: 5vw;
+    }
+    #trlwr{
+        bottom: -15vh;
+        height: 30vh;
+    }
+   
+    .slideshow-container {
+        min-width:90vw;
+    }
+    .slideshow-container h5{
+        font-size: 5vw;
+    }
+    #timg1{
+        width: 35vw;
+        height: 16vh;
+        bottom:9vh;
+        left:55vw
+
+
+    }
+    #timg2{
+        width: 35vw;
+        height: 16vh;
+        bottom:1vh
+
+    }
+    #timg3{
+        width: 35vw;
+        height: 16vh;
+        bottom:20vh;
+
+    }
+    #fourth{
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+
+    }
+    #forlft{
+        width: 100vw;
+        height: 80vh;
+    }
+    #forrgt{
+        width: 100vw;
+        gap:2vh;
+    }
+    #ctxt{
+        text-align: center;
+        right: 20vw;
+        justify-content:space-between;
+        top: 15vh;
+
+    }
+   #cupr{
+    font-size: 5vw;
+    margin-bottom: 3vh;
+   }
+   .clwr a{
+    font-size: 5vw;
+    gap:2vw;
+    white-space: nowrap;
+   }
+   .clwr a lord-icon{
+    width: 6vw;
+    height: 6vw;
+   }
+
+   #text{
+    width: 80%;
+    height: 10vh;
+    font-size: 5vw;
+
+   }
+   #mail{
+    width: 80%;
+    height: 6vh;
+    font-size: 5vw;
+
+   }
+   #name{
+    width: 80%;
+    height: 6vh;
+    font-size: 5vw;
+
+   }
+   #fb{
+    width: 25vw;
+    height: 5vh;
+    font-size: 5vw;
+
+   }
+   #lst{
+    left: 25vw;
+    font-size: 6vw;
+    bottom: 2vh;
+   }
+   #contact{
+    width: 6vw;
+    font-size: 5vw;
+   }
+   #arrow{
+    font-size: 5vw;
+   }
+   .num{
+    height: 8vh;
+   }
+   #white h1 span{
+    font-size: 15vw;
+   }
+   #crd h1{
+    font-size: 20vw;
+   }
+   #lftxt{
+    left: 20vw;
+    top: 40vh;
+   }
+   #rgtxt{
+    font-size: 8vw;
+    right: 0vw;
+    bottom: 30vh;
+   }
+
+    
+}
